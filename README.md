@@ -18,7 +18,7 @@ Manual Installation
 ===================
 Because i did not create `sublime-package` so your have to add your file into Packages/User.
 
-1. Download `Protobuf.sublime-syntax`
+1. Download `Protobuf.sublime-syntax` and `ProtobufText.sublime-syntax`
 2. Open Sublime Text 3, click `Preferences>Browse Packages...` menu
 3. Add the file into `Packages/User`
 4. Restart Sublime Text 3
