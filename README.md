@@ -24,8 +24,13 @@ Manual Installation
 
 ISSUES
 ===================
-- [ ] comments show incorrectly inside nested structure
+- [ ] Comments show incorrectly inside nested structure
 
 TODO
 ===================
-- [ ] can not warn user when syntax is incorrect. Like what Sublime3 does when your json syntax is wrong.
+- [ ] Warning user when syntax is incorrect. Like what Sublime3 does when your json syntax is wrong.
+
+Contact
+===================
+Skype: kcorlidy Chan
+Email: kcorlidy@outlook.com
