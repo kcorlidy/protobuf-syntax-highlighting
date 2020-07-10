@@ -17,7 +17,7 @@ Minimum Supported Version: Build 3103
 Manual Installation
 ===================
 
-1. Download [the latest release](https://github.com/VcamX/protobuf-syntax-highlighting/releases)
+1. Download [the latest release](https://github.com/kcorlidy/protobuf-syntax-highlighting/releases)
 2. Open Sublime Text 3, click `Preferences>Browse Packages...` menu
 3. Go to the parent directory of the popup folder and put the downloaded package into `Installed Packages/` folder
 4. Restart Sublime Text 3
