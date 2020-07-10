@@ -21,3 +21,11 @@ Manual Installation
 2. Open Sublime Text 3, click `Preferences>Browse Packages...` menu
 3. Go to the parent directory of the popup folder and put the downloaded package into `Installed Packages/` folder
 4. Restart Sublime Text 3
+
+ISSUES
+===================
+- [ ] comments show incorrectly inside nested structure
+
+TODO
+===================
+- [ ] can not warn user when syntax is incorrect. Like what Sublime3 does when your json syntax is wrong.
