@@ -24,7 +24,7 @@ Manual Installation
 
 ISSUES
 ===================
-- [ ] Comments show incorrectly inside nested structure
+- [x] Comments show incorrectly inside nested structure
 
 TODO
 ===================
