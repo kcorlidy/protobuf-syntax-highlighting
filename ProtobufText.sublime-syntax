@@ -24,6 +24,7 @@ variables:
 contexts:
   prototype:
     - include: comments
+    - include: comments_proto
 
   or_pop:
     # Pop if nothing matched (whitespace are ignored).
@@ -39,6 +40,21 @@ contexts:
       push:
         - meta_scope: comment.line.prototxt
         - match: $\n?
+          pop: true
+
+  comments_proto:
+    - match: //
+      scope: punctuation.definition.comment.begin.proto
+      push:
+        - meta_scope: comment.line.proto
+        - match: $\n?
+          pop: true
+    - match: /\*
+      scope: punctuation.definition.comment.proto
+      push:
+        - meta_scope: comment.block.proto
+        - match: \*/
+          scope: punctuation.definition.comment.proto
           pop: true
 
   field:
